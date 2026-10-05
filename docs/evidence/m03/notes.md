@@ -8,3 +8,5 @@
 - Reverse proxy: Caddy :80
 - Service diuji tetap aktif setelah reboot
 - Public endpoint: http://70.153.8.25/
+- Tes publik dari laptop (2026-10-05): curl.exe http://70.153.8.25/health -> status ok
+- curl.exe -I http://70.153.8.25/ -> HTTP/1.1 200 OK, Server: gunicorn, Via: 1.1 Caddy
