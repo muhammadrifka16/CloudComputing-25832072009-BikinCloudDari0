@@ -1,0 +1,21 @@
+● cc-m03.service - PTI 2802 M03 Flask Application
+     Loaded: loaded (/etc/systemd/system/cc-m03.service; enabled; preset: enabled)
+     Active: active (running) since Sat 2026-10-03 12:41:33 WIB; 2 days ago
+   Main PID: 740 (gunicorn)
+      Tasks: 3 (limit: 532)
+     Memory: 32.1M (peak: 36.3M)
+        CPU: 31.041s
+     CGroup: /system.slice/cc-m03.service
+             ├─740 /srv/cc-m03/.venv/bin/python /srv/cc-m03/.venv/bin/gunicorn --workers 1 --threads 2 --bind 127.0.0.1:8000 --timeout 30 --access-logfile - --error-logfile - app:app
+             └─945 /srv/cc-m03/.venv/bin/python /srv/cc-m03/.venv/bin/gunicorn --workers 1 --threads 2 --bind 127.0.0.1:8000 --timeout 30 --access-logfile - --error-logfile - app:app
+
+Oct 05 12:29:47 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:12:29:47 +0700] "GET / HTTP/1.1" 200 782 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+Oct 05 12:41:42 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:12:41:42 +0700] "GET / HTTP/1.1" 200 782 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.17) Gecko/20110123 (like Firefox/3.x) SeaMonkey/2.0.12"
+Oct 05 13:08:27 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:08:27 +0700] "GET / HTTP/1.1" 200 782 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+Oct 05 13:11:57 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:11:57 +0700] "GET / HTTP/1.1" 200 782 "-" "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity"
+Oct 05 13:19:12 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:19:12 +0700] "GET / HTTP/1.1" 200 782 "http://70.153.8.25:80/cgi-bin/index2.asp" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+Oct 05 13:22:51 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:22:51 +0700] "GET /.env HTTP/1.1" 404 207 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+Oct 05 13:22:51 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:22:51 +0700] "POST / HTTP/1.1" 405 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36"
+Oct 05 13:36:34 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:36:34 +0700] "GET /health HTTP/1.1" 200 91 "-" "curl/8.21.0"
+Oct 05 13:36:36 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:36:36 +0700] "HEAD / HTTP/1.1" 200 0 "-" "curl/8.21.0"
+Oct 05 13:36:52 cc-m03-25832072009 gunicorn[945]: 127.0.0.1 - - [05/Oct/2026:13:36:52 +0700] "GET /health HTTP/1.1" 200 91 "-" "curl/8.5.0"
