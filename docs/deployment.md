@@ -1,18 +1,20 @@
 # Manual Deployment M03
 
 ## Application Path
-/srv/cc-m03
+`/srv/cc-m03`
 
 ## Service
-cc-m03.service
+`cc-m03.service`
 
 ## Backend
-127.0.0.1:8000
+`127.0.0.1:8000`
 
 ## Public Endpoint
-http://70.153.8.25/
+`http://70.153.8.25/`
 
 ## Update Procedure
+
+```bash
 cd /srv/cc-m03
 git pull
 source .venv/bin/activate
@@ -21,9 +23,13 @@ sudo systemctl restart cc-m03
 sudo systemctl status cc-m03 --no-pager
 curl -fsS http://127.0.0.1:8000/health
 curl -fsS http://127.0.0.1/health
+```
 
 ## Rollback
+
+```bash
 git log --oneline --decorate -10
 git checkout m03
 sudo systemctl restart cc-m03
 git switch main
+```

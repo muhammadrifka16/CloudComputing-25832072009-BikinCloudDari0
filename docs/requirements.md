@@ -44,7 +44,7 @@ horizontal scaling, monitoring stack.
 - Public IPv4 70.153.8.25
 
 ## Acceptance Criteria M03
-- [ ] first deployment dapat diakses dari internet
-- [ ] /health mengembalikan HTTP 200
-- [ ] backend tidak terbuka di 0.0.0.0:8000
-- [ ] service tetap hidup setelah reboot
+- [x] first deployment dapat diakses dari internet
+- [x] /health mengembalikan HTTP 200
+- [x] backend tidak terbuka di 0.0.0.0:8000
+- [x] service tetap hidup setelah reboot
