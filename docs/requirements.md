@@ -1,26 +1,26 @@
 # Requirements
 
 ## Problem Statement
-Administrator laboratorium kesulitan memantau peminjaman perangkat
-secara terpusat. Sistem akan menyediakan pencatatan perangkat,
-peminjaman, dan status pengembalian sehingga penggunaan perangkat
-dapat ditelusuri.
+Mahasiswa kesulitan melacak tugas dan deadline karena informasi
+tersebar di banyak grup chat dan sering terlewat. Sistem akan
+menyediakan pencatatan tugas per mata kuliah beserta tenggat dan
+statusnya sehingga tugas yang belum selesai mudah dipantau.
 
 ## Target Users
-- Administrator laboratorium
-- Mahasiswa peminjam perangkat
+- Mahasiswa
+- Ketua kelas
 
 ## User Needs
-- Sebagai administrator, saya ingin melihat perangkat yang belum
-  dikembalikan, sehingga saya dapat menindaklanjuti keterlambatan.
-- Sebagai mahasiswa, saya ingin tahu perangkat yang tersedia,
-  sehingga saya dapat merencanakan peminjaman.
+- Sebagai mahasiswa, saya ingin melihat tugas yang belum selesai,
+  sehingga saya tidak melewatkan deadline.
+- Sebagai ketua kelas, saya ingin melihat tugas per mata kuliah,
+  sehingga saya dapat mengingatkan teman sekelas.
 
 ## Functional Requirements
 - FR-01 Sistem menampilkan halaman utama.
 - FR-02 Sistem menyediakan health endpoint (/health).
 - FR-03 Sistem menampilkan metadata aplikasi (/api/info).
-- FR-04 Sistem menampilkan daftar objek utama proyek (M05+).
+- FR-04 Sistem menampilkan daftar tugas sebagai objek utama proyek (M05+).
 
 ## Non-Functional Requirements
 - NFR-01 Backend hanya listen pada loopback (127.0.0.1:8000).

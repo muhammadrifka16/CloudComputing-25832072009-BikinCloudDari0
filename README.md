@@ -1,4 +1,4 @@
-# Cloud Project: Peminjaman Perangkat Lab
+# Cloud Project: Pelacak Tugas dan Deadline Kelas
 
 Cloud Computing, PTI 2802. Pertemuan 3: Project Inception.
 
@@ -6,14 +6,14 @@ Cloud Computing, PTI 2802. Pertemuan 3: Project Inception.
 Muhammad Rifka Z / 25832072009
 
 ## Problem
-Administrator laboratorium kesulitan memantau peminjaman perangkat
-secara terpusat. Sistem akan menyediakan pencatatan perangkat,
-peminjaman, dan status pengembalian sehingga penggunaan perangkat
-dapat ditelusuri.
+Mahasiswa kesulitan melacak tugas dan deadline karena informasi
+tersebar di banyak grup chat dan sering terlewat. Sistem akan
+menyediakan pencatatan tugas per mata kuliah beserta tenggat dan
+statusnya sehingga tugas yang belum selesai mudah dipantau.
 
 ## Target Users
-- Administrator laboratorium
-- Mahasiswa peminjam perangkat
+- Mahasiswa
+- Ketua kelas
 
 ## Features M03
 - baseline aplikasi Flask
