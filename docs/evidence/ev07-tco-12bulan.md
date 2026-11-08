@@ -51,7 +51,7 @@ Skenario B memakai harga list dari azurespeed.com (belum termasuk disk dan IP), 
 
 ## 7. Skenario setelah kredit habis atau kedaluwarsa
 Opsi: (1) hentikan dan hapus sumber daya, data diekspor lebih dulu; (2) pindah ke pay-as-you-go (perlu kartu kredit); (3) migrasi ke layanan lain.
-- Keputusan penyusun: [USULAN, belum dikonfirmasi] opsi 1 bila sisa kredit di bawah US$15 atau 30 hari sebelum 18-09-2027, mana yang lebih dulu.
+- Keputusan penyusun (disetujui 08-11-2026): opsi 1 bila sisa kredit di bawah US$15 atau 30 hari sebelum 18-09-2027, mana yang lebih dulu.
 
 ## 8. Keterbatasan
 - Data November belum lengkap dan dapat tertunda.
@@ -62,4 +62,4 @@ Opsi: (1) hentikan dan hapus sumber daya, data diekspor lebih dulu; (2) pindah k
 
 ## 9. Status temuan
 - 04 (TCO 12 bulan): Belum lulus; komponen domain dan backup belum ada.
-- 07 (kredit, burn-rate, budget alert): Belum lulus; menunggu keputusan penyusun pada bagian 7.
+- 07 (kredit, burn-rate, budget alert): Lulus (08-11-2026); catatan: screenshot detail peringatan anggaran belum dilampirkan karena memuat email dan ID akun.
