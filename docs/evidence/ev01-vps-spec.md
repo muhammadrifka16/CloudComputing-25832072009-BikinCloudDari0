@@ -83,10 +83,10 @@ Microsoft, "Basv2-series sizes", Azure Virtual Machines:
 https://learn.microsoft.com/azure/virtual-machines/sizes/general-purpose/basv2-series
 
 ## Bukti portal
-Screenshot portal Azure (Ikhtisar VM dan Disk): belum dilampirkan.
+Screenshot portal Azure (diambil 08-11-2026): ev01-portal-vm.png (Ikhtisar VM), ev01-portal-disk.png (Disk), ev01-katalog-basv2.png (katalog Microsoft Basv2).
 
 ## Rujukan lain
 Konfigurasi firewall (UFW) dan SSH dari M03: docs/evidence/m03/ (ufw, ssh-hardening).
 
 ## Status temuan 01
-Belum lulus: menunggu screenshot portal. Berubah ke Lulus setelah screenshot ada di docs/evidence/.
+Lulus (08-11-2026): SKU, vCPU, RAM, dan disk konsisten antara metadata Azure, nproc/free/lsblk, portal, dan katalog Microsoft.
